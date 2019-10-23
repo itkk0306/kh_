@@ -17,11 +17,31 @@ import java.util.Scanner;
          */
 public class WhileTest {
     public static void main(String[] args) {
+        //final 은 상수를 만들때 사용한다.
+        final int INIT = 3;
+
         Scanner in = new Scanner(System.in);
 
-        System.out.println("몇 번 반복할까요 ?");
+        System.out.println("몇 번째 항까지 진행할까요 ?");
         int num = in.nextInt();
 
+        /*
+        int i = 1;
+        while(i++<=100){
+            if(i%3 == 0)
+            System.out.println(i);
+        }
+
+        int first = 1, third = 3;
+        int tmp = 0;
+
+        while(tmp >= num){
+            tmp = first; // 1  4  8
+            first+=third; // 4 8  16
+            third = first; //4 8 4
+
+
+         */
 
     /*    while(--num > 0){
             System.out.println("바안보옥");
@@ -38,21 +58,31 @@ public class WhileTest {
         키보드 입력을 받아 몇 번째 항 까지 합치기를 수행할지 정한다.
         합치기 결과를 출력하시오.
          */
-        int i = 1;
-        while(i++<=100){
-            if(i%3 == 0)
-            System.out.println(i);
-        }
 
-        int first = 1, third = 3;
-        int tmp = 0;
+            int first = 1, second = 1, third = 3;
+            int finalRes = first+second+third;
 
-        while(tmp >= num){
-            tmp = first; // 1  4  8
-            first+=third; // 4 8  16
-            third = first; //4 8 4
+        System.out.println("first = " + first);
+        System.out.println("second = " + second);
+        System.out.println("third = " + third);
+        
+            num -= INIT;
 
+            // first + third = next third
+            //second = next first
+
+            while(num-- > 0){
+                int tmp = first;
+                first = second;
+                second = third;
+                third = tmp + second;
+
+                finalRes += third;
+
+                System.out.println("third = " + third);
+            }
+        System.out.println("Final Res = " + finalRes);
 
         }
     }
-}
+
