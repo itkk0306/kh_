@@ -6,14 +6,25 @@ public class QuizAns4ArrayVersion {
 
         Scanner in = new Scanner(System.in);
         System.out.println("몇 번째 항까지 합칠까요?");
+
+        //실제 [num] 개수만큼 int 형 배열을 할당(메모리 할당)
         int num = in.nextInt();
 
+        //메모리가 할당되었으므로 실제 데이터를 배치
         series = new int[num];
 
         series[0] = 1;
         series[1] = 1;
         series[2] = 3;
 
+        /* 1 1 3 5 8 12 17 25 37 ...
+           1번째와 3번째를 더해서 4번째가 갱신됨
+           2번째와 4번째를 더해서 5번째가 갱신됨
+           3번째와 5번째를 더해서 6번째가 갱신됨
+
+           배열의 인덱스는 0부터 시작한다는 것!
+           그러므로 1 번째는 [0], 2 번째는 [1] ... 기억하자!
+         */
         for(int i = 3; i < num; i++){
             series[i] = series[i-3] + series[i-1];
         }
@@ -29,12 +40,7 @@ public class QuizAns4ArrayVersion {
         }
 
         System.out.println("final res = " + res);
-        /*
-        숙제 5.
-        1 2 4 8 16 32 64 128 256 512 1024 2048 4096 ...
-        위 수열의 데이터를 각각 배열에 저장한다 인덱스는 0부터 시작한다.
-        8, 10, 12, 16 번째 인덱스의 값들을 추출하여 출력하고 추출한 값들을 모두 더한 값을 출력하시오.
-         */
+
 
 
 
