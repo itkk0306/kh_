@@ -15,11 +15,11 @@ public class ChallengeProb {
         */
     public static void main(String[] args) {
         int[] wirelessFreq = {
-                1,      5,      10,     10,     15,     150,     1500,     2300,
-                2350,   2350,   2350,   2350,   2350,   2350,    2350,     2350,
-                23423,  1231,   52352,  2352332, 13123, 34531, 2342,
+                1, 5, 10, 10, 15, 150, 1500, 2300,
+                2350, 2350, 2350, 2350, 2350, 2350, 2350, 2350,
+                23423, 1231, 52352, 2352332, 13123, 34531, 2342,
                 1231, 2342, 2342, 368, 4675, 47905, 45604, 4500,
-                5000,5000,5000,5000,5000,5000,5000,5000,5000};
+                5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000};
 
         //정렬에 활용할 변수들
         int i, j, key;
@@ -46,24 +46,28 @@ public class ChallengeProb {
         1231,   23423,   52352,  2352332
         [0]      [1]     [2]     [3]
 
-
+            ★정렬파트
          */
-        for(i = 1; i < len; i++){
+
+        //오름차순 정렬 시이작~!
+        for (i = 1; i < len; i++) {
             key = wirelessFreq[i];
 
-            for(j = i - 1; wirelessFreq[j] > key; j--){
-                wirelessFreq[j+1] = wirelessFreq[j];
+            for (j = i - 1; wirelessFreq[j] > key; j--) {
+                wirelessFreq[j + 1] = wirelessFreq[j];
             }
 
-            wirelessFreq[j+1] = key;
+            wirelessFreq[j + 1] = key;
 
         }
-
-        for(i = 0; i < len; i++){
+        //  ★ 정렬 파트 끝
+        for (i = 0; i < len; i++) {
             System.out.println("arr[" + i + "] = " + wirelessFreq[i]);
         }
 
+        // 중복이 없는 숫자를 배치할 배열
         int[] number;
+        // 각 숫자 값들이 얼마나 중복되었는지를 나타내는 배열
         int[] freqCheck;
 
         /* ### 추가 사항 ###
@@ -80,15 +84,18 @@ public class ChallengeProb {
             [0] [1] [2] [3] [4] [5]
          */
 
+        System.out.println("len = " + len);
+
+        //중복되지 않는 원소가 몇 개 있는지 계산함
         int nonRecursNum = 0;
-        for(i = 0; i < len; i++){
-            if(i == 0){
+        for (i = 0; i < len; i++) {
+            if (i == 0) {
                 nonRecursNum++;
                 continue; //continue 는 '무조건' 다시 for 문으로 돌아가게 한다. 단, 증감부를 거치게 됨
             }
 
             //중복이 없으면
-            for(j = 0; j < i; j++) {
+            for (j = 0; j < i; j++) {
                 //중복이 있다면 for문을 바로 빠져나옴
                 //그러므로 j 값이 어떤 경우에도 i 와 같아질 수 없다.
                 if (wirelessFreq[i] == wirelessFreq[j]) {
@@ -98,9 +105,131 @@ public class ChallengeProb {
                 }
             }
             //그러므로 i가 j와 같다는 것은 중복이 없다는 뜻
-            if(j == i)
+            if (j == i)
                 nonRecursNum++;
         }
+        //중복되지 않는 원소가 몇 개 있는지 계산 끝
+
         System.out.println("중복 없는 원소의 개수 = " + nonRecursNum);
+
+        //중복되지 않는 개수를 찾았으므로 실제 할당을 수행함
+        number = new int[nonRecursNum];
+        freqCheck = new int[nonRecursNum];
+
+        int nonRecursElem = 0;
+
+        //중복되지 않는 숫자값들을 실질적으로 할당하는 작업
+        for (i = 0; i < len; i++) {
+            for (j = 0; j < i; j++) {
+                if (wirelessFreq[i] == wirelessFreq[j]) {
+                    break;
+                }
+            }
+
+            if(j == i){
+                number[nonRecursElem++] = wirelessFreq[i];
+            }
+        }
+        //중복되지 않는 숫자값들 할당 완료!
+
+        System.out.println("nonRecursElem = " + nonRecursElem);
+
+        for(i = 0; i < nonRecursElem; i++){
+            System.out.println("number[" + i + "] = " + number[i]);
+        }
+
+        /*
+            빈도수에 대한 검사는 기존에 중복 없는 숫자 배열을 만드는 것과 동일한 패턴이다.
+            다만 중복되었을 때 이녀석이 어디에 배치되어야 하는지를 한 번 더 생각해줘야 한다.
+
+            아래 방법 보다 더 빠르고 효율적인 방법
+
+            i Loop를 Len 으로 검색하는게 아니라
+            nonRecursElem 으로 for Loop을 돌리고
+            wireLessFreq 전체를 비교해서 값을 올리면 훨씬 간단하다.
+
+            ### Loop 란 ? ###
+            반복문을 의미한다.
+            while Loop, for Loop 등등
+         */
+
+        //각 숫자들이 몇 번 반복되었는지 검사함
+        for(i = 0; i < len; i++){
+            for(j = 0; j < nonRecursElem; j++){
+                if(number[j] == wirelessFreq[i]){
+                    freqCheck[j]++;
+                    break;
+                }
+            }
+        }
+        // 각 숫지들이 몇 번 반복되었는지 검사 완료!
+
+  /*      for(i = 0; i < len; i++){
+            for(j = 0; j < i; j++){
+                if(wirelessFreq[i] == wirelessFreq[j]){
+                    for(int k = 0; k < nonRecursElem; k++){
+                        if(wirelessFreq[i] == number[k]){
+                            freqCheck[k]++;
+                            break;
+                        }
+                    }
+                }
+
+
+            }
+            //'중복은 없다'가 보장되는 부분!
+            if(i == j){
+                for(int k = 0; k < nonRecursElem; k++){
+                    if(wirelessFreq[i] == number[k]){
+                        freqCheck[k] = 1;
+                        break;
+                    }
+                }
+            }
+        }
+*/
+        for(i = 0; i < nonRecursElem; i++){
+            System.out.println("freqCheck[" +i + "] = " + freqCheck[i]);
+        }
+
+        /* 7. 오름차순으로 freqCheck 와 number를 정렬하면 끝!
+             내림 차순 버그는 월요일날 코드 제공!
+
+              오름차순으로 중복 횟수와 숫자 배열을 정렬한다.
+              이때 기준점이 되는 것은 중복 횟수가 된다.
+              그래야 큰 숫자 기준으로 나오는 것이 아니라 중복 횟수가 많은 녀석을 기준으로 나올 것이기 때문이다*/
+
+        int key2;
+
+        for(i = 1; i < nonRecursElem; i++){
+            key = freqCheck [i];
+            key2 = number[i];
+
+            for(j = i-1; freqCheck[j] > key; j--){
+                freqCheck[j + 1] = freqCheck[j];
+                number[j+1] = number[j];
+            }
+            freqCheck[j + 1] = key;
+            number[j + 1] = key2;
+        }
+        for(i = 0; i < nonRecursElem; i++){
+            System.out.println("number[" + i + "] = " + number[i] + ", freqCheck[" + i + "] = " + freqCheck[i]);
+        }
+
+        /* 숙제 6. [메모리 관리 정책 알고리즘]
+            배열 100 개에 무작위 데이터를 할당한다.
+            이 무작위 데이터의 범위는 1 ~ 4096 사이로 할당한다. -> 랜덤
+            배열 요소 하나가 의미하는 것은 4096 byte 에 해당한다.
+            이 때, 낭비된 공간의 크기를 산출하시오. -> 전체는 4096 * 100
+
+           ** 추가적으로 배열 요소 하나의 공간이
+            4096, 8192, 16384, 32768, 65536, 2^17 까지 가능하다고 가정한다.
+            그리고 무작위 데이터는 1 ~ 2^17 까지 할당할 수 있다.
+            이 경우에 이것을 가장 효율적으로 관리하기 위한 프로그램을 작성하시오.
+            Hint1. 낭비된 공간이 얼마나 있는지와 각각의 공간을 효율적으로 쓸 수 있도록 한다.)
+            Hint2. 비트 연산을 사용하면 효율성이 극대화됨.
+            * 편의상 공간의 개수는 10개로 진행하도록 한다.
+
+         */
     }
 }
