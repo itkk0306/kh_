@@ -15,7 +15,7 @@ public class Homework5 {
         System.out.println("몇 번째 항 까지 살펴볼까요>");
         num = in.nextInt();
 
-        //배열에 메모리 핡\ㄹ
+        //배열에 메모리 할당
         series = new int[num];
 
         //초기값 설정
