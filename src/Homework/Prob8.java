@@ -50,7 +50,7 @@ class variable{
                 ", b= " + b;
     }
 }
-public class Q_8 {
+public class Prob8 {
     public static void main(String[] args) {
         variable v = new variable((float)1.3,234.345346256);
         System.out.println(v);
