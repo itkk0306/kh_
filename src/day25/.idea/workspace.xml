@@ -2,96 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d4d5b88-bcd8-4b9d-b2e8-8ed4fb2d8209" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/androidTest/java/com/example/prob22_lec/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/java/com/example/prob22_lec/EnhanceActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/java/com/example/prob22_lec/ItemActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/java/com/example/prob22_lec/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/java/com/example/prob22_lec/PromotionActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/java/com/example/prob22_lec/RankActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/layout/activity_enhance.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/layout/activity_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/layout/activity_promotion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/layout/activity_rank.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/app/src/test/java/com/example/prob22_lec/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework/day24/Prob22_/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/androidTest/java/com/example/touchevent/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/java/com/example/touchevent/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/app/src/test/java/com/example/touchevent/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouchEvent/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/day24/app/src/main/java/com/example/prob22/ItemActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/day24/app/src/main/java/com/example/prob22/ItemActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/day24/app/src/main/java/com/example/prob22/PromotionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/day24/app/src/main/java/com/example/prob22/PromotionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/day24/app/src/main/java/com/example/prob22/RankingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/day24/app/src/main/java/com/example/prob22/RankingActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/day24/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/day24/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day23/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day23/app/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day23/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day23/app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,8 +14,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
-    <option name="y" value="70" />
+    <option name="x" value="260" />
+    <option name="y" value="62" />
     <option name="width" value="1486" />
     <option name="height" value="1000" />
   </component>
@@ -114,6 +25,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,13 +49,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TouchEvent/app" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,23 +82,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="70" width="1486" height="1000" extended-state="0" />
+    <frame x="260" y="62" width="1486" height="1000" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.32941988" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32941988" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" visible="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
     </layout>
   </component>
 </project>
