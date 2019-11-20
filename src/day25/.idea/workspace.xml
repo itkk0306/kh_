@@ -14,8 +14,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="62" />
+    <option name="x" value="237" />
+    <option name="y" value="27" />
     <option name="width" value="1486" />
     <option name="height" value="1000" />
   </component>
@@ -53,7 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework/day25" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
@@ -79,10 +79,18 @@
       <option name="presentableId" value="Default" />
       <updated>1573817185656</updated>
     </task>
+    <task id="LOCAL-00001" summary="26th Android">
+      <created>1574069793996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574069793996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="62" width="1486" height="1000" extended-state="0" />
+    <frame x="237" y="27" width="1486" height="1000" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32941988" />
@@ -100,5 +108,9 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="26th Android" />
+    <option name="LAST_COMMIT_MESSAGE" value="26th Android" />
   </component>
 </project>
